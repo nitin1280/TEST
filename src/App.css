@@ -1,0 +1,110 @@
+/* App.css */
+
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  /* max-width: 50%;
+  margin: 0 auto;
+  padding: 20px; */
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Form styles */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Table styles */
+table {
+  width: 50%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  /* background-color: yellow; */
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+.Remove{
+  margin: 2px;
+}
+th {
+  background-color: #007bff;
+  color: #fff;
+}
+select{
+  width: 50%;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.test{
+  margin: 10px;
+}
+.phpTable{
+  background-color: green;
+}
+.nodeJsTable{
+  background-color: yellow;
+}
+.otherTable{
+  background-color: orange;
+}
+/* Media Query for responsiveness */
+@media (max-width: 600px) {
+  form {
+    padding: 10px;
+  }
+
+  input {
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+
+  th, td {
+    padding: 8px;
+    width: 10%;
+    height: auto;
+  }
+}
